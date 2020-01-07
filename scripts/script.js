@@ -1,4 +1,4 @@
-// stack --------------------------------------------------------
+// Stack --------------------------------------------------------
 
 class Stack {
 	constructor() {
@@ -27,44 +27,13 @@ class Stack {
 		return this.items
 	}
 
-}
+	reset() {
+		this.items = []
+	}
 
+}
 
 // INIT -----------------------------------------------------------------
 var numStack = new Stack();
 var opStack = new Stack();
-
-
-
-
 // ------------------------------------------------------------------------
-
-
-
-
-
-
-const add = (a, b) => {
-	return a + b
-}
-
-
-const minus = (a, b) => {
-	return a - b
-}
-
-const divide = (a, b) => {
-	return a / b
-}
-
-const multiply = (a, b) => {
-	return a * b
-}
-
-console.log(numStack)
-
-
-
-
-
-
