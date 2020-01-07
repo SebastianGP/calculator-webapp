@@ -1,72 +1,57 @@
-
-
-.btn-md{
-	border-radius:0px;
-	width:5rem;
-	height:5rem;
+.btn-md {
+  border-radius: 0px;
+  width: 5rem;
+  height: 5rem;
 }
 
-.form-control{
-	
-	text-align: right;
-	height: 5rem;
-	width: 20rem;	
-	position: relative;
+.form-control {
+  text-align: right;
+  height: 5rem;
+  width: 20rem;
+  position: relative;
 
-	bottom:5px;
+  bottom: 5px;
 }
 
-
-.text{
-	font-size: 25px;
+.text {
+  font-size: 25px;
 }
 
-.btn{
-	font-size: 30px;
+.btn {
+  font-size: 30px;
 }
 
-#calculations{
-	position: relative;
-	top: 10px;
-	
+#calculations {
+  position: relative;
+  top: 10px;
 }
 
 .grid-container {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	max-width: 320px;
-	min-width: 320px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 320px;
+  min-width: 320px;
 }
 
-
-.grid-item{
-	max-width: 5px;
+.grid-item {
+  max-width: 5px;
 }
 
-.buttons{
-	display: flex;
-	justify-content: center;
+.buttons {
+  display: flex;
+  justify-content: center;
 }
 
-.btn-primary{
-	background: #2e2d2c;
-	color: white;
-	border-color: black;
+.btn-primary {
+  background: #2e2d2c;
+  color: white;
+  border-color: black;
 }
 
-
-.calculations{
-	background: orange;
+.calculations {
+  background: orange;
 }
 
-.btn-light{
-	border-color: black;
+.btn-light {
+  border-color: black;
 }
-
-
-
-
-
-
-
-
