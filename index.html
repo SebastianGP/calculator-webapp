@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+
+
+
+
+
+<body>
+
+	<!--Navbar and Number Display-->
+	<div id="title" class="jumbotron">
+		<h1 class="text-center"> Calculator App </h1>
+	</div>
+
+	<div class="container d-flex justify-content-center">
+		<div id="text">
+			<input class="form-control text" type="text" id="input" readonly>
+		</div>
+	</div>
+
+	<!---->
+
+<div id="calculations" class="buttons">
+		<div class="grid-container">
+
+			<div class="grid-item">
+				<button id="clear" class="btn btn-md btn-light" type="button">CE</button>
+			</div>
+			<div class="grid-item">
+				<button id="+-" class="btn btn-md btn-light" type="button">+/-</button>
+			</div>
+			<div class="grid-item">
+				<button id="percent" class="btn btn-md btn-light" type="button">%</button>
+			</div>
+			<div class="grid-item">
+				<button id="divide" class="btn btn-md btn-primary calculations" type="button" value="divide">/</button>
+			</div>
+
+			<div class="grid-item">
+				<div class="col-xs-4">
+					<button id="7" class="btn btn-md btn-primary" type="button">7</button>
+				</div>
+			</div>
+			<div class="grid-item">
+				<div class="col-xs-4">
+					<button id="8" class="btn btn-md btn-primary" type="button">8</button>
+				</div>
+			</div>
+			<div class="grid-item">
+				<div class="col-xs-4">
+					<button id="9" class="btn btn-md btn-primary" type="button">9</button>
+				</div>
+			</div>
+
+			<div class="grid-item">
+				<button id="times" class="btn btn-md btn-primary calculations" type="button" value="times">X</button>
+
+			</div>
+
+			<div class="grid-item">
+				<div class="col-xs-4">
+					<button id="4" class="btn btn-md btn-primary" type="button">4</button>
+				</div>
+			</div>
+			<div class="grid-item">
+				<div class="col-xs-4">
+					<button id="5" class="btn btn-md btn-primary" type="button">5</button>
+				</div>
+			</div>
+			<div class="grid-item">
+				<div class="col-xs-4">
+					<button id="6" class="btn btn-md btn-primary" type="button">6</button>
+				</div>
+			</div>
+
+			<div class="grid-item">
+
+				<button id="minus" class="btn btn-md btn-primary calculations" type="button" value="minus">-</button>
+
+			</div>
+
+			<div class="grid-item">
+				<div class="col-xs-4">
+					<button id="1" class="btn btn-md btn-primary" type="button">1</button>
+				</div>
+			</div>
+			<div class="grid-item">
+				<div class="col-xs-4">
+					<button id="2" class="btn btn-md btn-primary" type="button">2</button>
+				</div>
+			</div>
+			<div class="grid-item">
+				<div class="col-xs-4">
+					<button id="3" class="btn btn-md btn-primary" type="button">3</button>
+				</div>
+			</div>
+
+			<div class="grid-item">
+
+				<button id="plus" class="btn btn-md btn-primary calculations" type="button" value="plus">+</button>
+
+			</div>
+
+			<div class="grid-item">
+				<button id="zero" class="btn btn-md btn-primary" type="button" value="zero">0</button>
+			</div>
+
+			<div class="grid-item">
+				<button id="point" class="btn btn-md btn-primary" type="button" value="point">.</button>
+
+			</div>
+
+			<div class="grid-item">
+				<button id="del" class="btn btn-md btn-secondary" type="button">Del</button>
+
+			</div>
+
+			<div class="grid-item">
+
+				<button id="equals" value="equals" class="btn btn-md btn-primary calculations" type="button">=</button>
+
+
+			</div>
+
+		</div>
+
+</div>
+	
+
+
+	
+
+
+	
+
+
+
+
+
+
+	<script src="scripts/buttons.js"></script>
+
+	<script src="scripts/script.js"></script>
+
+</body>
+
+</html>
