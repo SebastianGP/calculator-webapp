@@ -1,10 +1,47 @@
-// Accumulators
+// stack --------------------------------------------------------
 
-const storage = {
-	accumulator: 0,
-	sign: "",
-	result: 0
+class Stack {
+	constructor() {
+		this.items = []
+	}
+
+	pop() {
+		if (this.items.length === 0) {
+			return Null
+		}
+		else {
+			return this.items.pop();
+		}
+	}
+
+	push(number) {
+		// When an operation is click, the number will be pushed onto the stack!		
+		this.items.push(number);
+	}
+
+	peek() {
+		return this.items[this.items.length - 1];
+	}
+
+	showStack() {
+		return this.items
+	}
+
 }
+
+
+// INIT -----------------------------------------------------------------
+var numStack = new Stack();
+var opStack = new Stack();
+
+
+
+
+// ------------------------------------------------------------------------
+
+
+
+
 
 
 const add = (a, b) => {
@@ -24,21 +61,10 @@ const multiply = (a, b) => {
 	return a * b
 }
 
+console.log(numStack)
 
 
-// Clear Input field, and reset accumulator
-document.querySelector("#clear").addEventListener("click", (e) => {
-	document.getElementById("input").value = "";
-	saveIntoStorage();
-})
-// 
 
 
-// Storing calculations
-const saveIntoStorage = () => {
-	storage.accumulator = parseInt(document.getElementById("input").value, 10);
-	// console.log(storage.accumulator)
-	return storage.accumulator;
-}
 
 
